@@ -1,0 +1,177 @@
+/*
+ Theme Name:   Spun Child
+ Theme URI:    http://example.com/Spun/
+ Description:  Spun Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     spun
+ Version:      1.0.0
+ Tags:         light, minimal, clean, grid
+ Text Domain:  spun-shild
+*/
+
+@import url("../spun/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+
+/* Header & Navigation 
+-------------------------------------------------------------- */
+
+h1.site-title {
+	font-family: "Alegreya Sans", "Verdana", serif;
+	font-style: normal;
+	font-size: 2em;
+	margin: 0 0 0 0 ;
+}
+
+.site-title a:hover {
+	color: #333333;
+}
+
+.main-navigation {
+	font-family: "Alegreya Sans", "Verdana", serif;
+	letter-spacing: 0.1em;
+	margin-top: 6%;
+}
+
+.main-navigation li {
+	margin: 0 0 5px 24px;
+}
+
+.main-navigation ul ul a {
+	padding: 5px 10px;
+	text-transform: none;
+	width: 150px;
+}
+
+h1 .entry-title {
+	font-family: "Alegreya Sans", "Verdana", serif;
+	font-style: normal;
+}
+
+.header-wrapper {
+	text-align: center;
+	display: block;
+	float: left;
+	width: 100%;
+	}
+
+/* Homepage-Posts
+-------------------------------------------------------------- */
+
+/*.hentry {
+	-webkit-transform: rotate(45deg);
+}*/
+
+.blog .hentry a .attachment-home-post,
+.archive .hentry a .attachment-home-post,
+.search .hentry a .attachment-home-post {
+	border-radius: 0px;
+}
+
+.blog .hentry a:hover img,
+.archive .hentry a:hover img,
+.search .hentry a:hover img,
+.blog .hentry a:focus img,
+.archive .hentry a:focus img,
+.search .hentry a:focus img {
+	border-radius: 0px;
+}
+
+.hentry.no-thumbnail {
+	border-radius: 0px;
+	background: grey;
+
+}
+
+
+.hentry .thumbnail-title {
+	font-family: "Alegreya Sans", "Verdana", serif;
+	font-style: normal;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	width: 160px;
+}
+
+
+
+/* Post Content
+-------------------------------------------------------------- */
+
+.entry-title {
+	font-family: "Alegreya", "Georgia", serif;	
+	font-style: normal;
+}
+
+.entry-meta {
+	font-family: "Alegreya sans", "Verdana", sans-serif;
+	font-size: 1.5rem;
+}
+
+.entry-content {
+	font-family: "Alegreya", "Georgia", serif;
+}
+
+/* Content Navigation
+-------------------------------------------------------------- */
+
+.site-content .site-navigation {
+	display: none;
+	clear: both;
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+
+/* Media
+-------------------------------------------------------------- */
+
+.entry-content img {
+	border-color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px 10px 10px 10px;
+	border-radius: 0.5%;
+}
+
+.wp-caption img {
+	border-color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px 10px 10px 10px;
+	border-radius: 0.5%;
+}
+
+.wp-caption-text {
+	font-family: "Alegreya Sans", "Verdana", sans-serif;
+	font-size: 1.6rem;
+}
+
+
+
+/* Media Queries
+-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
