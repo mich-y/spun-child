@@ -30,8 +30,10 @@
 .site-title {
 	font-family: "Alegreya Sans", "Verdana", serif;
 	font-style: normal;
-	font-size: 2em;
-	margin: 0 0 0 0 ;
+	font-weight: 600;
+	font-size: 3.4rem;
+	letter-spacing: 0.2rem;
+	margin: auto;
 	display: block;
 	float: none;
 	color: black;
@@ -49,6 +51,7 @@
 
 .site-header img {
 	margin-right: 0px;
+	opacity: 80%;
 }
 
 h1 .entry-title {
@@ -63,8 +66,7 @@ h1 .entry-title {
 
 .main-navigation {
 	font-family: "Alegreya Sans", "Verdana", serif;
-	letter-spacing: 0.1em;
-	margin-top: 2em;
+	margin: 2em 0 1em 0;
 	text-align: center;
 	float: none;
 	width: 100%;
@@ -75,6 +77,12 @@ h1 .entry-title {
 	margin: 0 2em 1em 2em;
 }
 
+.main-navigation a:hover {
+	color: black;
+	text-decoration: none;
+	border-bottom: solid;
+	border-color: grey;
+}
 
 
 /* Homepage-Posts
@@ -102,7 +110,6 @@ h1 .entry-title {
 .hentry.no-thumbnail {
 	border-radius: 0px;
 	background: pink;
-
 }
 
 
@@ -173,6 +180,95 @@ h1 .entry-title {
 /* Media Queries
 -------------------------------------------------------------- */
 
+/*  Media Query 1200 px
+-------------------------------------------------------------- */
+@media screen and ( max-width: 1200px ) {
+	.site {
+		width: 800px;
+	}
+	.single .content-area,
+	.page .content-area,
+	.search-no-results .content-area,
+	.error404 .content-area {
+		width: 100%;
+	}
+	.single .hentry,
+	.error404 .hentry,
+	.page .hentry,
+	.search-no-results .no-results {
+		width: 500px;
+	}
+	.site-info {
+		line-height: 1.6;
+	}
+}
+
+
+
+/*  Media Query 800 px
+-------------------------------------------------------------- */
+@media screen and ( max-width: 800px ) {
+	blockquote {
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+	.site {
+		width: 600px;
+	}
+	.hentry {
+		margin: 5px;
+		width: 180px;
+		height: 180px;
+	}
+	.hentry.no-thumbnail {
+		width: 180px;
+		height: 180px;
+	}
+	.hentry .thumbnail-title {
+		font-size: 1.5rem;
+		line-height: normal;
+		width: 160px;
+	}
+	.page-header h1 {
+		margin: 5px;
+		padding: 35px 11px 0;
+		width: 101px;
+		height: 88px;
+	}
+}
+
+
+/*  Media Query 600 px
+-------------------------------------------------------------- */
+@media screen and ( max-width: 600px ) {
+	.site {
+		padding: 0;
+		width: 300px;
+	}
+	.hentry {
+		margin: 5px;
+		width: 300px;
+		height: 160px;
+	}
+	.hentry.no-thumbnail {
+		width: 300px;
+		height: 120px;
+		max-width: 100%;
+	}
+	.hentry .thumbnail-title {
+		font-size: 1.5rem;
+		line-height: normal;
+		width: 200px;
+	}
+	.page-header h1 {
+		margin: 5px;
+		padding: 48px 18px;
+		width: 104px;
+		height: 44px;
+	}
+	.site-title {
+		font-size: 2.4rem;
+	}
 
 
 
