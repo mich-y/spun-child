@@ -109,7 +109,7 @@ h1 .entry-title {
 
 .hentry.no-thumbnail {
 	border-radius: 0px;
-	background: pink;
+	background: lightslategrey;
 }
 
 
@@ -136,19 +136,38 @@ h1 .entry-title {
 	font-size: 1.5rem;
 }
 
+.sidebar-link {
+	background: lightslategrey;
+}
+
+.comments-link a { 
+	background-color: lightslategrey;
+}
+
+.comments-link a .tail {
+	border-top: 10px solid lightslategrey;
+}
+
+.entry-format {
+	display: none;
+}
+
 .entry-content {
 	font-family: "Alegreya", "Georgia", serif;
 }
 
-/* Content Navigation
+
+
+/* Content Navigation & Meta
 -------------------------------------------------------------- */
 
 .site-content .site-navigation {
-	display: none;
+	/*display: none;*/
 	clear: both;
 	margin: 1.5em 0;
 	text-align: center;
 }
+
 
 
 /* Media
@@ -248,12 +267,13 @@ h1 .entry-title {
 	.hentry {
 		margin: 5px;
 		width: 300px;
-		height: 160px;
+		height: 300px;
 	}
 	.hentry.no-thumbnail {
 		width: 300px;
-		height: 120px;
+		height: 300px;
 		max-width: 100%;
+
 	}
 	.hentry .thumbnail-title {
 		font-size: 1.5rem;
@@ -268,6 +288,15 @@ h1 .entry-title {
 	}
 	.site-title {
 		font-size: 2.4rem;
+	}
+
+	.site-header {
+		padding-bottom: 0px;
+	}
+
+	.main-navigation {
+		width: 80%;
+		margin: 28px auto;
 	}
 
 

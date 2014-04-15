@@ -7,4 +7,11 @@
     
     add_action('wp_print_styles', 'load_fonts');
 
+// Remove Mobile Menu Toggle
+    function spun_deactivate_menu() {
+   			wp_dequeue_script( 'spun-toggle' );
+		}
+	add_action( 'wp_print_scripts', 'spun_deactivate_menu' );
+
 ?>
+
